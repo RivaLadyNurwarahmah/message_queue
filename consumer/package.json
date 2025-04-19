@@ -1,0 +1,26 @@
+{
+  "name": "publisher",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.ts"
+  },
+  "keywords": [
+    "belajar",
+    "ngoding",
+    "message",
+    "queue"
+  ],
+  "author": "rivalady",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "amqplib": "^0.10.5"    
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
